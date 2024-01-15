@@ -1,0 +1,14 @@
+/* Estilos para el contenedor de Canvas */
+.canvas-container {
+  width: 100vw; /* Ancho completo de la ventana */
+  height: 100vh; /* Altura completa de la ventana */
+  display: flex; /* Flexbox para centrar el contenido */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  overflow: hidden; /* Ocultar el desbordamiento */
+}
+
+/* Estilos para el Canvas */
+.canvas {
+  flex-grow: 1; /* Permitir que el Canvas crezca para llenar el espacio */
+}
